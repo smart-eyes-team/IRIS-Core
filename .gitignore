@@ -1,20 +1,29 @@
-# Môi trường ảo Python
-venv/
-env/
+# Virtual Environment
 .venv/
+venv/
 
-# Python Cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 
-# Weights & Dataset dung lượng lớn
-models/*.pt
-models/*.onnx
+# YOLO model
+*.pt
+
+# Dataset
 dataset/
-*.mp4
-*.jpg
-*.png
 
-# IDE Config
+# Output
+output/
+runs/
+
+# IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
