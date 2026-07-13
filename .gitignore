@@ -1,0 +1,20 @@
+# Môi trường ảo Python
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Weights & Dataset dung lượng lớn
+models/*.pt
+models/*.onnx
+dataset/
+*.mp4
+*.jpg
+*.png
+
+# IDE Config
+.vscode/
+.idea/
