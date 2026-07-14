@@ -1,7 +1,7 @@
 # Thành viên nhóm gồm:
 - Ngọ Tâm Ngọc - MSSV: 24108752
 - Phan Thị Ngân Quỳnh - MSSV: 24100457
-- Đặng Ngọc Khuê - MSSV: 
+- Đặng Ngọc Khuê - MSSV: 24100493
 
 # Smart Eyes - Kính thông minh hỗ trợ người khiếm thị
 
