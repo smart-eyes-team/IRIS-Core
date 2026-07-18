@@ -250,7 +250,7 @@ class ObjectTracker:
             det = detections[det_idx]
             x1, y1, x2, y2 = det[:4]
             
-            # Bộ lọc chống nhiễu: Loại bỏ nhầm lẫn thiết bị nhỏ như điện thoại thành người
+            # Bộ lọc chống nhiễu: Loại bỏ nhầm lẫn các thiết bị nhỏ ví dụ như điện thoại thành người
             c_name = det[6] if len(det) > 6 else "object"
             if c_name.lower() in ["person", "human"]:
                 # Kích thước hộp quá nhỏ (ví dụ bé hơn 50 pixel) thì không tạo track người mới
